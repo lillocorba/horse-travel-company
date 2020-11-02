@@ -44,7 +44,7 @@
 .logoMenu {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: bold;
   margin: 0px;
   padding-top: 20px;
   color: white; }
@@ -212,8 +212,8 @@ ul {
     margin: 0; }
   .logoMenu {
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 500;
-    font-size: 1.6rem;
+    font-weight: 600;
+    font-size: 1.4rem;
     margin: 0px;
     padding-top: 20px;
     color: white; }
@@ -357,6 +357,92 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.mision {
+  overflow-y: hidden; }
+
+.mision__col1 {
+  padding: 50px 25px 50px 25px; }
+
+.mision__col2 {
+  height: 50vh;
+  background-image: url(../imagenes/img-mision-vision-valor.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.mision__h3 {
+  font-family: "Alegreya SC", serif;
+  color: #34598F;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+.mision__p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #34598F;
+  font-weight: 500;
+  line-height: 2rem; }
+
+.servicios {
+  overflow-y: hidden;
+  padding: 100px 25px 100px 25px; }
+
+.servicios__col1 {
+  margin-bottom: 20px; }
+
+.servicios__h2 {
+  font-family: "Alegreya SC", serif;
+  color: #34598F;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+.servicios__col2 {
+  background-color: #34598F;
+  border-radius: 50px;
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+  margin-bottom: 20px; }
+
+.servicios__h4--blanco {
+  color: white;
+  font-family: "Alegreya SC", serif;
+  font-size: 1.4rem; }
+
+.servicios__col3 {
+  background-color: white;
+  border: solid 1px #34598F;
+  border-radius: 50px;
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+  margin-bottom: 20px; }
+
+.servicios__h4--azul {
+  color: #34598F;
+  font-family: "Alegreya SC", serif;
+  font-size: 1.4rem; }
+
+.servicios__col4 {
+  background-color: #34598F;
+  border-radius: 50px;
+  text-align: center;
+  padding: 50px 10px 50px 10px; }
+
+.container__servicios__2 {
+  padding: 50px 0px 50px 0px; }
+
+.servicios__row2__col1 {
+  text-align: center; }
+
+.servicios__p {
+  color: #34598F;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 20px; }
+
+.servicios__row2__col2 {
+  text-align: center; }
 
 html, body {
   position: relative;

@@ -1,0 +1,32 @@
+@import "variables.scss";
+
+.mision {
+    overflow-y: hidden;
+}
+
+.mision__col1 {
+    padding: 50px 25px 50px 25px;
+}
+
+.mision__col2 {
+    height: 50vh;
+    background-image: url(../imagenes/img-mision-vision-valor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mision__h3 {
+    font-family: $fuente-alegreya;
+    color: $color-azul;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.mision__p {
+    font-family: $fuente-source;
+    color: $color-azul;
+    font-weight: 500;
+    line-height: 2rem;
+}

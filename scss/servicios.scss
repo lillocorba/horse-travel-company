@@ -1,0 +1,73 @@
+@import "variables.scss";
+
+.servicios {
+    overflow-y: hidden;
+    padding: 100px 25px 100px 25px;
+}
+
+.servicios__col1 {
+    margin-bottom: 20px;
+}
+
+.servicios__h2 {
+    font-family: $fuente-alegreya;
+    color: $color-azul;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.servicios__col2 {
+    background-color: $color-azul;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    margin-bottom: 20px;
+}
+
+.servicios__h4--blanco {
+    color: white;
+    font-family: $fuente-alegreya;
+    font-size: 1.4rem;
+}
+
+.servicios__col3 {
+    background-color: white;
+    border: solid 1px $color-azul;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    margin-bottom: 20px;
+}
+
+.servicios__h4--azul {
+    color: $color-azul;
+    font-family: $fuente-alegreya;
+    font-size: 1.4rem;
+}
+
+.servicios__col4 {
+    background-color: $color-azul;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+}
+
+.container__servicios__2 {
+    padding: 50px 0px 50px 0px;
+}
+
+.servicios__row2__col1 {
+    text-align: center;
+}
+
+.servicios__p {
+    color: $color-azul;
+    font-family: $fuente-source;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.servicios__row2__col2 {
+    text-align: center;
+}
