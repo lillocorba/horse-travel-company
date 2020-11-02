@@ -1,0 +1,397 @@
+@import "variables.scss";
+
+.menu {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logoMenu {
+    font-family: $fuente-source;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.linkMenu {
+    margin-right: 20px;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.enlaceLink {
+    text-decoration: none;
+    color: white;
+    font-family: $fuente-source;
+    transition: all 0.3s ease-in;
+}
+
+.enlaceLink:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+    }
+
+    .logoMenu {
+        font-family: $fuente-source;
+        font-size: 1.6rem;
+        margin: 0px;
+        padding-top: 10px;
+        color: white;
+    }
+
+    ul {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin-left: auto;
+        background-color: $color-azul;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    ul.active {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin-left: auto;
+        background-color: $color-azul;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        transform: translate(0%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .linkMenu {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+    }
+
+    .enlaceLink {
+        text-decoration: none;
+        color: white;
+        font-family: $fuente-source;
+        font-size: 40px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .enlaceLink:hover {
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .liHome {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out;
+    }
+
+    .liAbout {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out 0.2s;
+    }
+
+    .liProductos {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out 0.4s;
+    }
+
+    .liContacto {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out 0.6s;
+    }
+
+    .liFaq {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out 0.8s;
+    }
+
+    .link-active {
+        transform: translate(0%);
+    }
+
+    /* BTN BURGER */
+    
+    .contenedorBurger {
+        display: flex;
+        margin-left: auto;
+        padding-top: 20px;
+    }
+
+    .linea1 {
+        background-color: white;
+        width: 25px;
+        height: 3px;
+        transition: transform 0.2s ease-in;
+    }
+    
+    .linea2 {
+        background-color: white;
+        width: 25px;
+        height: 3px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        transition: opacity 0.2s ease-in;
+    }
+    
+    .linea3 {
+        background-color: white;
+        width: 25px;
+        height: 3px;
+        transition: transform 0.2s ease-in;
+    }
+
+    .toggle .linea1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+        background-color: white;
+    }
+    
+    .toggle .linea2 {
+        opacity: 0;
+        background-color: white;
+    }
+    
+    .toggle .linea3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+        background-color: white;
+    }
+
+    .burgerBtn {
+        display: block;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+}
+
+/* CELULAR */
+
+@media (max-width: 768px) {
+    .menu {
+        display: flex;
+        flex-direction: row;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+    }
+
+    .logoMenu {
+        font-family: $fuente-source;
+        font-weight: 500;
+        font-size: 1.6rem;
+        margin: 0px;
+        padding-top: 20px;
+        color: white;
+    }
+
+    ul {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin-left: auto;
+        background-color: $color-azul;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        transform: translate(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    ul.active {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin-left: auto;
+        background-color: $color-azul;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        transform: translate(0%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .linkMenu {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+    }
+
+    .enlaceLink {
+        text-decoration: none;
+        color: white;
+        font-family: $fuente-source;
+        font-size: 30px;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .enlaceLink:hover {
+        font-size: 40px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .liHome {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out;
+    }
+
+    .liAbout {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out 0.2s;
+    }
+
+    .liProductos {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out 0.4s;
+    }
+
+    .liContacto {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out 0.6s;
+    }
+
+    .liFaq {
+        margin-right: 20px;
+        text-decoration: none;
+        margin-bottom: 50px;
+        transform: translate(600px);
+        transition: transform 1s ease-in-out 0.8s;
+    }
+
+    .link-active {
+        transform: translate(0%);
+    }
+
+    /* BTN BURGER */
+    
+    .contenedorBurger {
+        display: flex;
+        margin-left: auto;
+        padding-top: 30px;
+    }
+
+    .linea1 {
+        background-color: white;
+        width: 25px;
+        height: 3px;
+        transition: transform 0.2s ease-in;
+    }
+    
+    .linea2 {
+        background-color: white;
+        width: 25px;
+        height: 3px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        transition: opacity 0.2s ease-in;
+    }
+    
+    .linea3 {
+        background-color: white;
+        width: 25px;
+        height: 3px;
+        transition: transform 0.2s ease-in;
+    }
+
+    .toggle .linea1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+        background-color: white;
+    }
+    
+    .toggle .linea2 {
+        opacity: 0;
+        background-color: white;
+    }
+    
+    .toggle .linea3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+        background-color: white;
+    }
+
+    .burgerBtn {
+        display: block;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+}
+
+

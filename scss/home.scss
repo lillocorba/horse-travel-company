@@ -1,0 +1,43 @@
+@import "variables.scss";
+
+.hero {
+    background-image: url(../imagenes/bg-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.hero__col1 {
+    text-align: center;
+}
+
+.hero__h1 {
+    font-family: $fuente-alegreya;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero__btn {
+    color: white;
+    font-family: $fuente-source;
+    font-size: 1rem;
+    background-color: $color-azul;
+    border-radius: 100px;
+    padding: 7px 15px 7px 15px;
+    text-decoration: none;
+}
+
+.hero__btn:hover {
+    color: $color-azul;
+    background-color: white;
+    text-decoration: none;
+}

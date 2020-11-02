@@ -1,0 +1,33 @@
+@import "variables.scss";
+
+.about {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.about__col1 {
+    height: 50vh;
+    padding: 50px 25px 50px 25px;
+}
+
+.about__h2 {
+    font-family: $fuente-alegreya;
+    color: $color-azul;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about__p {
+    font-family: $fuente-source;
+    color: $color-azul;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+.about__col2 {
+    height: 50vh;
+    background-image: url(../imagenes/img-quienes-somos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
