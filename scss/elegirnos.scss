@@ -1,0 +1,35 @@
+@import "variables.scss";
+
+.elegirnos {
+    background-image: url(../imagenes/bg-elegirnos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 25px 100px 25px;
+}
+
+.elegirnos__col1 {
+    text-align: center;
+}
+
+.elegirnos__h3 {
+    color: white;
+    font-family: $fuente-alegreya;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.elegirnos__p {
+    color: white;
+    font-family: $fuente-source;
+    font-size: 1rem;
+}
+
+.elegirnos__h4 {
+    color: white;
+    font-family: $fuente-alegreya;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}

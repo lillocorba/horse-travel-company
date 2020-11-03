@@ -1,4 +1,4 @@
-@import "variables.scss", "home.scss", "menu.scss", "about.scss", "mision.scss", "servicios.scss";
+@import "variables.scss", "home.scss", "menu.scss", "about.scss", "mision.scss", "servicios.scss", "elegirnos.scss", "contacto.scss", "footer.scss";
 
 html, body {
     position: relative;
@@ -7,4 +7,5 @@ html, body {
     box-sizing: border-box;
     overflow-x: hidden;
     font-size: 62,5%;
+    scroll-behavior: smooth;
 }

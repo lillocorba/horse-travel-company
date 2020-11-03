@@ -1,0 +1,54 @@
+@import "variables.scss";
+
+.contacto {
+    background-color: white;
+    padding: 100px 25px 100px 25px;
+}
+
+.contacto__h3 {
+    font-family: $fuente-alegreya;
+    color: $color-azul;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.contacto__form__input {
+    border: solid 1px $color-azul;
+    color: $color-azul;
+    border-radius: 100px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.contacto__form__input--mensaje {
+    border: solid 1px $color-azul;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    color: $color-azul;
+}
+
+.contacto__form__input::placeholder, .contacto__form__input--mensaje::placeholder {
+    color: $color-azul;
+    opacity: 0.3;
+}
+
+.contacto__form__input, .contacto__form__input--mensaje {
+    outline: none;
+}
+
+.contacto__container__btn {
+    text-align: right;
+}
+
+.contacto__btn__enviar {
+    background-color: $color-azul;
+    color: white;
+    font-family: $fuente-source;
+    border: none;
+    border-radius: 100px;
+    padding: 7px 15px 7px 15px;
+}

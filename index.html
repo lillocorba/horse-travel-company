@@ -20,27 +20,24 @@
   <body>
     <!-- HERO -->
 
-    <div class="container-fluid hero">
+    <div class="container-fluid hero" id="inicio">
       <div>
         <nav class="menu">
           <div class="contenedorLogo">
             <h4 class="logoMenu">HT Company</h4>
           </div>
           <ul class="nav-links">
-            <a href="#home" class="enlaceLink">
+            <a href="#inicio" class="enlaceLink">
               <li class="linkMenu liHome">Inicio</li>
             </a>
-            <a href="#" class="enlaceLink">
+            <a href="#nosotros" class="enlaceLink">
                     <li class="linkMenu liAbout">Quienes somos</li>
                 </a>
-            <a href="#deskpad" class="enlaceLink">
-              <li class="linkMenu liProductos">Pad Konzept</li>
+            <a href="#servicios" class="enlaceLink">
+              <li class="linkMenu liServicios">Servicios</li>
             </a>
             <a href="#contacto" class="enlaceLink">
               <li class="linkMenu liContacto">Contacto</li>
-            </a>
-            <a href="https://kzt.com.ar/faq.html" class="enlaceLink">
-              <li class="linkMenu liFaq">Preguntas</li>
             </a>
           </ul>
           <div class="contenedorBurger">
@@ -67,7 +64,7 @@
 
     <!-- ABOUT -->
 
-    <div class="container-fluid about">
+    <div class="container-fluid about" id="nosotros">
       <div class="row justify-content-center align-items-center">
         <div class="col-sm-12 col-md-6 col-lg-6 about__col1">
           <img src="imagenes/line.png" alt="" />
@@ -86,7 +83,7 @@
 
     <!-- MISION, VISION, VALOR -->
 
-    <div class="container-fluid mision">
+    <div class="container-fluid mision" id="mision">
         <div class="row mision__row">
           <div class="col-sm-12 col-md-6 col-lg-6 mision__col1">
             <img src="imagenes/line.png" alt="" />
@@ -117,7 +114,7 @@
 
     <!-- SERVICIOS -->
 
-    <div class="container-fluid servicios">
+    <div class="container-fluid servicios" id="servicios">
       <div class="container">
         <div class="row servicios__row">
           <div class="col-sm-12 col-md-12 col-lg-12 servicios__col1">
@@ -225,10 +222,12 @@
 
     <!-- CONTACTO -->
 
-    <div class="container-fluid contacto">
+    <div class="container-fluid contacto" id="contacto">
       <div class="container">
         <div class="row contacto__row">
           <div class="col-sm-12 col-md-12 col-lg-12 contacto__col1">
+            <img src="imagenes/line.png" alt="">
+            <h3 class="contacto__h3">Contacto</h3>
             <form action="" class="contacto__form">
               <fieldset>
                 <input
@@ -244,7 +243,7 @@
                   type="email"
                   name="email"
                   id=""
-                  placeholder="email"
+                  placeholder="Email"
                   class="contacto__form__input"
                 />
               </fieldset>
@@ -254,9 +253,12 @@
                   id=""
                   cols="30"
                   rows="10"
-                  placeholder="mensaje"
+                  placeholder="Mensaje"
                   class="contacto__form__input--mensaje"
                 ></textarea>
+              </fieldset>
+              <fieldset class="contacto__container__btn">
+                  <input type="button" value="Enviar" class="contacto__btn__enviar">
               </fieldset>
             </form>
           </div>
@@ -274,7 +276,7 @@
               Desarrollada por
               <span class="footer__h4--guinda"
                 ><a href="https://guindasocialmedia.com.ar/"
-                  >Guinda Social Media</a
+                  target="_blank">Guinda Social Media</a
                 ></span
               >
             </h4>

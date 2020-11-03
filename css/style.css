@@ -146,7 +146,7 @@ ul {
     margin-bottom: 50px;
     transform: translate(600px);
     transition: transform 1s ease-in-out 0.2s; }
-  .liProductos {
+  .liServicios {
     margin-right: 20px;
     text-decoration: none;
     margin-bottom: 50px;
@@ -275,7 +275,7 @@ ul {
     margin-bottom: 50px;
     transform: translate(600px);
     transition: transform 1s ease-in-out 0.2s; }
-  .liProductos {
+  .liServicios {
     margin-right: 20px;
     text-decoration: none;
     margin-bottom: 50px;
@@ -386,7 +386,7 @@ ul {
 
 .servicios {
   overflow-y: hidden;
-  padding: 100px 25px 100px 25px; }
+  padding: 100px 25px 0px 25px; }
 
 .servicios__col1 {
   margin-bottom: 20px; }
@@ -444,10 +444,101 @@ ul {
 .servicios__row2__col2 {
   text-align: center; }
 
+.elegirnos {
+  background-image: url(../imagenes/bg-elegirnos.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 25px 100px 25px; }
+
+.elegirnos__col1 {
+  text-align: center; }
+
+.elegirnos__h3 {
+  color: white;
+  font-family: "Alegreya SC", serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+.elegirnos__p {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem; }
+
+.elegirnos__h4 {
+  color: white;
+  font-family: "Alegreya SC", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 20px; }
+
+.contacto {
+  background-color: white;
+  padding: 100px 25px 100px 25px; }
+
+.contacto__h3 {
+  font-family: "Alegreya SC", serif;
+  color: #34598F;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 25px; }
+
+.contacto__form__input {
+  border: solid 1px #34598F;
+  color: #34598F;
+  border-radius: 100px;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px; }
+
+.contacto__form__input--mensaje {
+  border: solid 1px #34598F;
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+  color: #34598F; }
+
+.contacto__form__input::placeholder, .contacto__form__input--mensaje::placeholder {
+  color: #34598F;
+  opacity: 0.3; }
+
+.contacto__form__input, .contacto__form__input--mensaje {
+  outline: none; }
+
+.contacto__container__btn {
+  text-align: right; }
+
+.contacto__btn__enviar {
+  background-color: #34598F;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  border: none;
+  border-radius: 100px;
+  padding: 7px 15px 7px 15px; }
+
+.footer {
+  color: white;
+  background-color: #34598F;
+  padding: 30px 20px 30px 20px; }
+
+.footer__col1 {
+  text-align: center; }
+
+.footer__h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem; }
+
+.footer__h4--guinda a {
+  text-decoration: none;
+  color: white; }
+
 html, body {
   position: relative;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-size: 62,5%; }
+  font-size: 62,5%;
+  scroll-behavior: smooth; }

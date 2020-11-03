@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+.footer {
+    color: white;
+    background-color: $color-azul;
+    padding: 30px 20px 30px 20px;
+}
+
+.footer__col1 {
+    text-align: center;
+}
+
+.footer__h4 {
+    font-family: $fuente-source;
+    font-size: 1rem;
+}
+
+.footer__h4--guinda a {
+    text-decoration: none;
+    color: white;
+}
