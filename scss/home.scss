@@ -41,3 +41,37 @@
     background-color: white;
     text-decoration: none;
 }
+
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero__h1 {
+        font-family: $fuente-alegreya;
+        color: white;
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .hero__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35vh;
+    }
+
+    .hero__btn {
+        color: white;
+        font-family: $fuente-source;
+        font-size: 1.3rem;
+        background-color: $color-azul;
+        border-radius: 100px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+    }
+}
+
+/* COMPUTADORA CHICA */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}

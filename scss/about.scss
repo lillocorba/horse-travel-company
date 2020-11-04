@@ -31,3 +31,63 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* MEDIA QUERIES */
+
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about {
+        height: auto;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about__col1 {
+        height: auto;
+        width: auto;
+        padding: 50px 50px 50px 50px;
+    }
+}
+
+/* COMPUTADORA CHICA */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about {
+        height: auto;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about__col1 {
+        height: auto;
+        width: auto;
+        padding: 50px 50px 50px 50px;
+    }
+}
+
+/* COMPUTADORA GRANDE */
+
+@media (min-width: 1200px) {
+    .about {
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about__col1 {
+        height: auto;
+        width: auto;
+        padding: 50px 100px 50px 100px;
+    }
+
+    .about__col2 {
+        height: 60vh;
+        background-image: url(../imagenes/img-quienes-somos.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

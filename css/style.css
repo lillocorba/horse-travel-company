@@ -34,6 +34,28 @@
   background-color: white;
   text-decoration: none; }
 
+/* IPAD */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero__h1 {
+    font-family: "Alegreya SC", serif;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px; }
+  .hero__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh; }
+  .hero__btn {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.3rem;
+    background-color: #34598F;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; } }
+
+/* COMPUTADORA CHICA */
 .menu {
   margin: 0;
   display: flex;
@@ -358,6 +380,48 @@ ul {
   background-repeat: no-repeat;
   background-size: cover; }
 
+/* MEDIA QUERIES */
+/* IPAD */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about {
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    margin: 0; }
+  .about__col1 {
+    height: auto;
+    width: auto;
+    padding: 50px 50px 50px 50px; } }
+
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about {
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    margin: 0; }
+  .about__col1 {
+    height: auto;
+    width: auto;
+    padding: 50px 50px 50px 50px; } }
+
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .about {
+    height: auto;
+    padding: 0;
+    margin: 0; }
+  .about__col1 {
+    height: auto;
+    width: auto;
+    padding: 50px 100px 50px 100px; }
+  .about__col2 {
+    height: 60vh;
+    background-image: url(../imagenes/img-quienes-somos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; } }
+
 .mision {
   overflow-y: hidden; }
 
@@ -384,9 +448,40 @@ ul {
   font-weight: 500;
   line-height: 2rem; }
 
+/* MEDIA QUERIES */
+/* IPAD */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mision__col1 {
+    padding: 50px 75px 50px 75px; } }
+
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mision__col2 {
+    height: 85vh;
+    background-image: url(../imagenes/img-mision-vision-valor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mision__col1 {
+    padding: 50px 50px 50px 50px; } }
+
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .mision__col2 {
+    height: 65vh;
+    background-image: url(../imagenes/img-mision-vision-valor.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mision__col1 {
+    padding: 50px 70px 50px 70px; } }
+
 .servicios {
   overflow-y: hidden;
   padding: 100px 25px 0px 25px; }
+
+.container__servicios__2 {
+  text-align: center; }
 
 .servicios__col1 {
   margin-bottom: 20px; }
@@ -439,10 +534,101 @@ ul {
   color: #34598F;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
 .servicios__row2__col2 {
   text-align: center; }
+
+/* MEDIA QUERIES */
+/* IPAD */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .servicios {
+    overflow-y: hidden;
+    padding: 25px 25px 0px 25px; }
+  .servicios__col1 {
+    text-align: center; } }
+
+/* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .servicios {
+    overflow-y: hidden;
+    padding: 25px 25px 20px 25px; }
+  .servicios__col1 {
+    text-align: center;
+    margin-bottom: 30px; }
+  .servicios__row2 {
+    text-align: center;
+    justify-content: center; }
+  .servicios__col2 {
+    background-color: #34598F;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    height: 200px; }
+  .servicios__col3 {
+    background-color: white;
+    border: solid 1px #34598F;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    height: 200px;
+    margin: 0px 20px 0px 20px; }
+  .servicios__col4 {
+    background-color: #34598F;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    height: 200px; }
+  .servicios__row3 {
+    text-align: center;
+    justify-content: center; } }
+
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .servicios {
+    overflow-y: hidden;
+    padding: 100px 25px 100px 25px; }
+  .servicios__col1 {
+    text-align: center;
+    padding-bottom: 20px; }
+  .servicios__row2 {
+    text-align: center;
+    justify-content: center; }
+  .servicios__col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #34598F;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px; }
+  .servicios__col3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: white;
+    border: solid 1px #34598F;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px;
+    margin: 0px 20px 0px 20px; }
+  .servicios__col4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #34598F;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px 10px 50px 10px; }
+  .servicios__row3 {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center; }
+  .servicios__h2 {
+    margin-bottom: 30px; } }
 
 .elegirnos {
   background-image: url(../imagenes/bg-elegirnos.jpg);
@@ -489,14 +675,14 @@ ul {
   color: #34598F;
   border-radius: 100px;
   width: 100%;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 15px;
   margin-bottom: 10px; }
 
 .contacto__form__input--mensaje {
   border: solid 1px #34598F;
   border-radius: 20px;
   width: 100%;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 15px;
   margin-bottom: 10px;
   color: #34598F; }
 

@@ -5,6 +5,10 @@
     padding: 100px 25px 0px 25px;
 }
 
+.container__servicios__2 {
+    text-align: center;
+}
+
 .servicios__col1 {
     margin-bottom: 20px;
 }
@@ -65,9 +69,140 @@
     color: $color-azul;
     font-family: $fuente-source;
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .servicios__row2__col2 {
     text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+/* IPAD */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .servicios {
+        overflow-y: hidden;
+        padding: 25px 25px 0px 25px;
+    }
+
+    .servicios__col1 {
+        text-align: center;
+    }
+}
+
+/* COMPUTADORA CHICA */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .servicios {
+        overflow-y: hidden;
+        padding: 25px 25px 20px 25px;
+    }
+
+    .servicios__col1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .servicios__row2 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .servicios__col2 {
+        background-color: $color-azul;
+        border-radius: 50px;
+        text-align: center;
+        padding: 50px 10px 50px 10px;
+        height: 200px;
+    }
+
+    .servicios__col3 {
+        background-color: white;
+        border: solid 1px $color-azul;
+        border-radius: 50px;
+        text-align: center;
+        padding: 50px 10px 50px 10px;
+        height: 200px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .servicios__col4 {
+        background-color: $color-azul;
+        border-radius: 50px;
+        text-align: center;
+        padding: 50px 10px 50px 10px;
+        height: 200px;
+    }
+
+    .servicios__row3 {
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+/* COMPUTADORA GRANDE */
+
+@media (min-width: 1200px) {
+    .servicios {
+        overflow-y: hidden;
+        padding: 100px 25px 100px 25px;
+    }
+
+    .servicios__col1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .servicios__row2 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .servicios__col2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        background-color: $color-azul;
+        border-radius: 50px;
+        text-align: center;
+        padding: 50px 10px 50px 10px;
+    }
+
+    .servicios__col3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        background-color: white;
+        border: solid 1px $color-azul;
+        border-radius: 50px;
+        text-align: center;
+        padding: 50px 10px 50px 10px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .servicios__col4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        background-color: $color-azul;
+        border-radius: 50px;
+        text-align: center;
+        padding: 50px 10px 50px 10px;
+    }
+
+    .servicios__row3 {
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+    } 
+
+    .servicios__h2 {
+        margin-bottom: 30px;
+    }
 }
