@@ -56,7 +56,9 @@
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 hero__col1">
             <h1 class="hero__h1">Horse Travel Company</h1>
-            <a href="#" class="hero__btn">Quienes Somos</a>
+            <div class="hero__container__btn">
+              <a href="#nosotros" class="hero__btn">Quienes Somos</a>
+          </div>
           </div>
         </div>
       </div>
@@ -67,8 +69,8 @@
     <div class="container-fluid about" id="nosotros">
       <div class="row justify-content-center align-items-center">
         <div class="col-sm-12 col-md-6 col-lg-6 about__col1">
-          <img src="imagenes/line.png" alt="" />
-          <h2 class="about__h2">Quienes Somos</h2>
+          <img src="imagenes/line.png" alt="" class="about__line"/>
+          <h2 class="about__title">Quienes Somos</h2>
           <p class="about__p">
             Horse Travel Company se encarga de brindarte un servicio de
             logística aérea y terrestre con especialidad equina. Nuestro trabajo
@@ -238,7 +240,7 @@
           <div class="col-sm-12 col-md-12 col-lg-12 contacto__col1">
             <img src="imagenes/line.png" alt="">
             <h3 class="contacto__h3">Contacto</h3>
-            <form action="" class="contacto__form">
+            <form action="form.php" method="POST" class="contacto__form">
               <fieldset>
                 <input
                   type="text"
@@ -246,7 +248,7 @@
                   id=""
                   placeholder="Nombre y Apellido"
                   class="contacto__form__input"
-                />
+                  required/>
               </fieldset>
               <fieldset>
                 <input
@@ -255,7 +257,16 @@
                   id=""
                   placeholder="Email"
                   class="contacto__form__input"
-                />
+                  required/>
+              </fieldset>
+              <fieldset>
+                <input
+                  type="telefono"
+                  name="telefono"
+                  id=""
+                  placeholder="Teléfono"
+                  class="contacto__form__input"
+                required/>
               </fieldset>
               <fieldset>
                 <textarea
@@ -268,7 +279,7 @@
                 ></textarea>
               </fieldset>
               <fieldset class="contacto__container__btn">
-                  <input type="button" value="Enviar" class="contacto__btn__enviar">
+                  <input type="submit" value="Enviar" class="contacto__btn__enviar">
               </fieldset>
             </form>
           </div>
@@ -308,5 +319,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/menu.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

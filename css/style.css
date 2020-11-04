@@ -18,7 +18,14 @@
   font-family: "Alegreya SC", serif;
   color: white;
   font-size: 2.5rem;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: all 1s ease-in-out; }
+
+.hero__h1--active {
+  opacity: 1;
+  transform: translateY(0%); }
 
 .hero__btn {
   color: white;
@@ -28,6 +35,15 @@
   border-radius: 100px;
   padding: 7px 15px 7px 15px;
   text-decoration: none; }
+
+.hero__container__btn {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-in-out; }
+
+.hero__container__btn--active {
+  opacity: 1;
+  transform: translateY(0%); }
 
 .hero__btn:hover {
   color: #34598F;
@@ -56,6 +72,14 @@
     text-decoration: none; } }
 
 /* COMPUTADORA CHICA */
+/* COMPUTADORA GRANDE */
+@media (min-width: 1200px) {
+  .hero__h1 {
+    font-family: "Alegreya SC", serif;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px; } }
+
 .menu {
   margin: 0;
   display: flex;
@@ -361,7 +385,16 @@ ul {
   height: 50vh;
   padding: 50px 25px 50px 25px; }
 
-.about__h2 {
+.about__line {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 1s ease-in-out; }
+
+.about__line--active {
+  opacity: 1;
+  transform: translateX(0%); }
+
+.about__title {
   font-family: "Alegreya SC", serif;
   color: #34598F;
   font-weight: 600;
@@ -410,7 +443,8 @@ ul {
   .about {
     height: auto;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    overflow: hidden; }
   .about__col1 {
     height: auto;
     width: auto;
