@@ -60,8 +60,13 @@
 /* COMPUTADORA GRANDE */
 
 @media (min-width: 1200px) {
+
+    .mision {
+        height: 100vh;
+    }
+
     .mision__col2 {
-        height: 75vh;
+        height: 100vh;
         background-image: url(../imagenes/img-mision-vision-valor.jpg);
         background-position: center;
         background-repeat: no-repeat;
