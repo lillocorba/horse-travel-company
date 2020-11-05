@@ -502,7 +502,7 @@ ul {
 /* COMPUTADORA GRANDE */
 @media (min-width: 1200px) {
   .mision__col2 {
-    height: 65vh;
+    height: 70vh;
     background-image: url(../imagenes/img-mision-vision-valor.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -621,7 +621,7 @@ ul {
 @media (min-width: 1200px) {
   .servicios {
     overflow-y: hidden;
-    padding: 100px 25px 100px 25px; }
+    padding: 50px 25px 50px 25px; }
   .servicios__col1 {
     text-align: center;
     padding-bottom: 20px; }
