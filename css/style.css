@@ -502,7 +502,7 @@ ul {
 /* COMPUTADORA GRANDE */
 @media (min-width: 1200px) {
   .mision__col2 {
-    height: 70vh;
+    height: 75vh;
     background-image: url(../imagenes/img-mision-vision-valor.jpg);
     background-position: center;
     background-repeat: no-repeat;
