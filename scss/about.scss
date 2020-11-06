@@ -2,7 +2,7 @@
 
 .about {
     height: 100vh;
-    overflow-y: hidden;
+    // overflow-y: hidden;
 }
 
 .about__col1 {
@@ -10,13 +10,13 @@
     padding: 50px 25px 50px 25px;
 }
 
-.about__line {
+.container__about {
     opacity: 0;
     transform: translateX(-50px);
     transition: all 1s ease-in-out;
 }
 
-.about__line--active {
+.container__about--active {
     opacity: 1;
     transform: translateX(0%);
 }

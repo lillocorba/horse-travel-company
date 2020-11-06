@@ -18,6 +18,25 @@
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 20px;
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.elegirnos__h3--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.container__elegirnos__p {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 0.5s;
+}
+
+.container__elegirnos__p--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
 }
 
 .elegirnos__p {
@@ -32,4 +51,12 @@
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 20px;
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 1s;
+}
+
+.elegirnos__h4--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
 }

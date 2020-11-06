@@ -31,6 +31,39 @@
     line-height: 2rem;
 }
 
+.container__mision {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.container__mision--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.container__vision { 
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 0.5s;
+}
+
+.container__vision--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.container__valor { 
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 1s;
+}
+
+.container__valor--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
 /* MEDIA QUERIES */
 
 /* IPAD */
