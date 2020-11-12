@@ -1,7 +1,7 @@
 
 <?php
 
-$destinatario = "info@horsetravelcompany.com.ar";
+$destinatario = "administracion@horsetravelcompany.com.ar";
 $asunto = "Consulta de Servicios";
 $nombre = $_POST ['nombre'];
 $email = $_POST ['email'];
