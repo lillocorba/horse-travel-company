@@ -1,3 +1,30 @@
+/* MANTENIMIENTO */
+.contenedor__mantenimiento {
+  height: 100%;
+  width: 100%;
+  background-color: #34598F;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.mantenimiento {
+  text-align: center;
+  padding: 0px 20px 0px 20px; }
+
+.mantenimiento__h2 {
+  color: white;
+  font-family: "Alegreya SC", serif;
+  font-size: 2.2rem; }
+
+.mantenimiento__p {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem; }
+
 .hero {
   background-image: url(../imagenes/bg-hero.jpg);
   background-position: center;
@@ -69,16 +96,42 @@
     background-color: #34598F;
     border-radius: 100px;
     padding: 10px 20px 10px 20px;
-    text-decoration: none; } }
+    text-decoration: none; }
+  .mantenimiento__h2 {
+    color: white;
+    font-family: "Alegreya SC", serif;
+    font-size: 3rem; }
+  .mantenimiento__p {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem; } }
 
 /* COMPUTADORA CHICA */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mantenimiento__h2 {
+    color: white;
+    font-family: "Alegreya SC", serif;
+    font-size: 3rem; }
+  .mantenimiento__p {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem; } }
+
 /* COMPUTADORA GRANDE */
 @media (min-width: 1200px) {
   .hero__h1 {
     font-family: "Alegreya SC", serif;
     color: white;
     font-size: 3rem;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .mantenimiento__h2 {
+    color: white;
+    font-family: "Alegreya SC", serif;
+    font-size: 3rem; }
+  .mantenimiento__p {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.6rem; } }
 
 .menu {
   margin: 0;
